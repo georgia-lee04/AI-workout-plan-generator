@@ -9,6 +9,9 @@ body {
 
 h1 {
   text-align: center;
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 36px;
 }
 
 .container {
@@ -16,8 +19,50 @@ h1 {
   background: white;
   display: block;
   margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+  padding: 15px 15px;
+  height: 300px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+}
+
+form {
+  display: flex;
+  padding: 20px;
+}
+
+.instructions {
+  padding: 14px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.submit-button {
+  background: #bbe4e9;
+  margin-left: 10px;
+  padding: 14px 14px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #5585b5;
+  cursor: pointer;
+}
+
+.generator-output {
+  border-left: 3px solid #bbe4e9;
+  padding: 10px;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 footer {
   text-align: center;
+  font-size: 13px;
 }
