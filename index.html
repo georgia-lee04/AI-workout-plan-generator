@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Workout Plan Generator</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form class="workout-form">
+        <form id="workout-plan-form" class="workout-form">
           <input
             type="text"
             placeholder="Enter the type of workout plan you want"
@@ -31,11 +32,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="generator-output">
-          Output will go here
-          <br />
-          Output will go here
-        </div>
+        <div class="generator-output" id="generator-output"></div>
       </main>
     </div>
     <footer>
