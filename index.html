@@ -4,33 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Workout Plan Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Workout Plan Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Workout Plan Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the type of workout plan you want"
-          autofocus
-          required
-          autocomplete="off"
-          id=""
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form class="workout-form">
+          <input
+            type="text"
+            placeholder="Enter the type of workout plan you want"
+            autofocus
+            required
+            autocomplete="off"
+            id=""
+          />
+          <input type="submit" />
+        </form>
 
-      <div>
-        Output will go here
-        <br />
-        Output will go here
-      </div>
-    </main>
-
+        <div>
+          Output will go here
+          <br />
+          Output will go here
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/georgia-lee04" target="_blank">Georgia Lee</a>
