@@ -81,12 +81,14 @@ form {
 
 /* HTML: <div class="loader"></div> */
 .loader {
-  width: 50px;
+  width: 30px;
   aspect-ratio: 1;
   border-radius: 50%;
   border: 8px solid;
   border-color: #000 #0000;
   animation: l1 1s infinite;
+  display: inline-block;
+  margin-right: 10px;
 }
 @keyframes l1 {
   to {
