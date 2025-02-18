@@ -19,7 +19,7 @@ function generateWorkout(event) {
 
   let workoutElement = document.querySelector("#generator-output");
   workoutElement.classList.remove("hidden");
-  workoutElement.innerHTML = `<div class ="loader"></div>Generating your gym workout...`;
+  workoutElement.innerHTML = `<div class ="loader"></div><span class ="loader-text">Generating your gym workout...</span>`;
 
   axios.get(apiUrl).then(displayWorkout);
 }
