@@ -15,8 +15,8 @@ h1 {
 }
 
 .container {
-  width: 600px;
-
+  max-width: 600px;
+  width: 90%;
   background: white;
   display: block;
   margin: 0 auto;
@@ -68,7 +68,8 @@ form {
   line-height: 24px;
   font-size: 14px;
   background: white;
-  width: 600px;
+  max-width: 600px;
+  width: 90%;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -112,38 +113,5 @@ footer {
 @media (max-width: 760px) {
   h1 {
     font-size: 20px;
-  }
-
-  .container {
-    width: 350px;
-  }
-
-  .generator-output {
-    font-size: 9px;
-    width: 350px;
-  }
-
-  .instructions {
-    font-size: 8.5px;
-    width: 100%;
-  }
-
-  .submit-button {
-    padding: 9px 9px;
-    font-size: 11px;
-    width: 70px;
-  }
-
-  .example,
-  footer {
-    font-size: 9px;
-  }
-
-  .loader-text {
-    font-size: 12px;
-  }
-
-  .loader {
-    width: 15px;
   }
 }
