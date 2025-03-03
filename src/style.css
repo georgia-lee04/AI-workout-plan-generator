@@ -16,7 +16,7 @@ h1 {
 
 .container {
   width: 600px;
-  max-width: 100%;
+
   background: white;
   display: block;
   margin: 0 auto;
@@ -88,7 +88,6 @@ form {
   display: none;
 }
 
-/* HTML: <div class="loader"></div> */
 .loader {
   width: 30px;
   aspect-ratio: 1;
@@ -99,27 +98,52 @@ form {
   display: inline-block;
   margin-right: 10px;
 }
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
 @keyframes l1 {
   to {
     transform: rotate(0.5turn);
   }
 }
 
-footer {
-  text-align: center;
-  font-size: 13px;
-}
-
-@media (max-width: 900px) {
-  .container {
-    width: 430px;
+@media (max-width: 760px) {
+  h1 {
+    font-size: 20px;
   }
 
-  h1 {
-    font-size: 30px;
+  .container {
+    width: 300px;
   }
 
   .generator-output {
-    width: 400px;
+    font-size: 9px;
+    width: 300px;
+  }
+
+  .instructions {
+    font-size: 8.5px;
+    width: 100%;
+  }
+
+  .submit-button {
+    padding: 9px 9px;
+    font-size: 11px;
+    width: 70px;
+  }
+
+  .example,
+  footer {
+    font-size: 9px;
+  }
+
+  .loader-text {
+    font-size: 12px;
+  }
+
+  .loader {
+    width: 15px;
   }
 }
